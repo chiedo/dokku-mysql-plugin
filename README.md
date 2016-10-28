@@ -5,10 +5,7 @@ See [Dokku](https://github.com/progrium/dokku) for the bigger picture.
 
 ##Install
 
-    cd /var/lib/dokku/plugins
-    git clone https://github.com/hughfletcher/dokku-mysql-plugin mysql
-    chmod +x mysql/install mysql/commands mysql/pre-release
-    dokku plugins-install
+    sudo dokku plugin:install https://github.com/chiedo/dokku-mysql-plugin.git
 
 ##Commands
 
